@@ -71,9 +71,9 @@ cd Student-Performance-Prediction-System
 
 2. Create and activate virtual environment:
 ```bash
-python -m venv myenv
-source myenv/bin/activate  # For Linux/Mac
-myenv\Scripts\activate     # For Windows
+python -m venv venv
+source venv/bin/activate  # For Linux/Mac
+venv\Scripts\activate     # For Windows
 ```
 
 3. Install dependencies:
@@ -99,7 +99,7 @@ python app.py
    - Saves the model and preprocessor in the artifacts directory
 
 2. Prediction:
-   - Access the web interface at `http://localhost:5000`
+   - Access the web interface at [http://localhost:5000](http://localhost:5000)
    - Input student details
    - Get predicted math score
 
