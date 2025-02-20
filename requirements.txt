@@ -8,6 +8,6 @@ xgboost
 Flask
 dill
 gunicorn
-
+pip == 25.0.1
 
 # -e .
